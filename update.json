@@ -1,6 +1,6 @@
-{
-    "version": "v13",
-    "versionCode": 130000,
-    "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v13/PlayIntegrityFork-v13.zip",
-    "changelog": "https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/CHANGELOG.md"
+{{
+    "version": "v1",
+    "versionCode": 1000,
+    "zipUrl": "https://github.com/frpunlocking-com/PlayIntegritySuperFork/releases/download/v1/PlayIntegritySuperFork-v1.zip",
+    "changelog": "https://raw.githubusercontent.com/frpunlocking-com/PlayIntegritySuperFork/main/CHANGELOG.md"
 }

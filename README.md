@@ -1,10 +1,10 @@
 # Play Integrity Fork
 *PIF forked to be more futureproof and develop more methodically*
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/osm0sis/PlayIntegrityFork?label=Release&color=blue&style=flat)](https://github.com/osm0sis/PlayIntegrityFork/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/osm0sis/PlayIntegrityFork?label=Release%20Date&color=brightgreen&style=flat)](https://github.com/osm0sis/PlayIntegrityFork/releases)
-[![GitHub Releases](https://img.shields.io/github/downloads/osm0sis/PlayIntegrityFork/latest/total?label=Downloads%20%28Latest%20Release%29&color=blue&style=flat)](https://github.com/osm0sis/PlayIntegrityFork/releases/latest)
-[![GitHub All Releases](https://img.shields.io/github/downloads/osm0sis/PlayIntegrityFork/total?label=Total%20Downloads%20%28All%20Releases%29&color=brightgreen&style=flat)](https://github.com/osm0sis/PlayIntegrityFork/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/frpunlocking-com/PlayIntegritySuperFork/?label=Release&color=blue&style=flat)](https://github.com/frpunlocking-com/PlayIntegritySuperFork/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/frpunlocking-com/PlayIntegritySuperFork/?label=Release%20Date&color=brightgreen&style=flat)](https://github.com/frpunlocking-com/PlayIntegritySuperFork/releases)
+[![GitHub Releases](https://img.shields.io/github/downloads/frpunlocking-com/PlayIntegritySuperFork/latest/total?label=Downloads%20%28Latest%20Release%29&color=blue&style=flat)](https://github.com/frpunlocking-com/PlayIntegritySuperFork/releases/latest)
+[![GitHub All Releases](https://img.shields.io/github/downloads/frpunlocking-com/PlayIntegritySuperFork/total?label=Total%20Downloads%20%28All%20Releases%29&color=brightgreen&style=flat)](https://github.com/frpunlocking-com/PlayIntegritySuperFork/releases)
 
 A Zygisk module which fixes "MEETS_DEVICE_INTEGRITY" for Android <13 "deviceRecognitionVerdict" with the Play Integrity API.
 
@@ -21,7 +21,7 @@ It injects a classes.dex file to modify fields in the android.os.Build class. Al
 
 ## About 'custom.pif.json' file
 
-You can fill out the included template [example.pif.json](https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/module/example.pif.json) from the module directory (/data/adb/modules/playintegrityfix) then rename it to custom.pif.json to spoof custom values to the GMS unstable process. It will be used instead of any included pif.json (none included currently).
+You can fill out the included template [example.pif.json](https://raw.githubusercontent.com/frpunlocking-com/PlayIntegritySuperFork/main/module/example.pif.json) from the module directory (/data/adb/modules/playintegrityfix) then rename it to custom.pif.json to spoof custom values to the GMS unstable process. It will be used instead of any included pif.json (none included currently).
 
 Note this is just a template with the current suggested default entries, but with this fork you can include as few or as many android.os.Build class fields and Android system properties as needed to pass DEVICE verdict now and in the future if the enforced checks by Play Integrity change.
 
@@ -57,7 +57,7 @@ A migration may also be performed manually with `sh migrate.sh` and custom.pif.j
 
 ## About 'custom.app_replace.list' file
 
-You can customize the included default [example.app_replace.list](https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/module/example.app_replace.list) from the module directory (/data/adb/modules/playintegrityfix) then rename it to custom.app_replace.list to systemlessly replace any additional conflicting custom ROM spoof injection app paths to disable them.
+You can customize the included default [example.app_replace.list](https://raw.githubusercontent.com/frpunlocking-com/PlayIntegritySuperFork/main/module/example.app_replace.list) from the module directory (/data/adb/modules/playintegrityfix) then rename it to custom.app_replace.list to systemlessly replace any additional conflicting custom ROM spoof injection app paths to disable them.
 
 ## About 'autopif2.sh' and 'killpi.sh' script files
 

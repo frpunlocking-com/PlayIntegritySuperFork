@@ -1,3 +1,11 @@
+## Super Fork v1
+
+- Bump version to v1 (versionCode 1000)
+- Add TSUpport Advanced option
+- Update README badges & links to point at frpunlocking-com/PlayIntegritySuperFork
+- Rename module to "Play Integrity Super Fork" and extend (confirmed) supported Android range from <A13 to A16
+- Update update.json with correct zipUrl and changelog
+
 ## Custom Fork v13
 
 - Improve Action on KSU/APatch, KSU-Next, MMRL
@@ -19,5 +27,3 @@
 - Fix retaining replaced non-system ROM apps on KSU/APatch
 - Add autopif2 --strong for initial setup with TS
 - Add skipping prop deletion to avoid app detections if skipdelprop file exists
-
-_[Previous changelogs](https://github.com/osm0sis/PlayIntegrityFork/releases)_

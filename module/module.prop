@@ -1,7 +1,7 @@
 id=playintegrityfix
-name=Play Integrity Fork
-version=v13
-versionCode=130001
-author=osm0sis & chiteroman @ xda-developers
-description=Fix <A13 DEVICE (Play Integrity) verdict
-updateJson=https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/update.json
+name=Play Integrity Super Fork
+version=v1
+versionCode=1000
+author=frpunlocking-com & osm0sis & chiteroman @ xda-developers
+description=Fix <A13 - A16 DEVICE (Play Integrity) verdict
+updateJson=https://raw.githubusercontent.com/frpunlocking-com/PlayIntegrityFork/main/update.json
